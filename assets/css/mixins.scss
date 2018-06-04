@@ -1,0 +1,19 @@
+@mixin translateZ($z) {
+	transform: translateZ($z);
+}
+
+@mixin scale($x, $y) {
+	transform: scale($x, $y);
+}
+
+@mixin transition($ms) {
+	transition: $ms;
+}
+
+@mixin translate($x, $y) {
+	transform: translate($x, $y);
+}
+
+@mixin rotate($deg) {
+	transform: rotate($deg);
+}

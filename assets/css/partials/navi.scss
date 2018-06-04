@@ -1,0 +1,30 @@
+.navi {
+	margin: 0;
+	padding: 0;
+	& &__element {
+		display: inline-block;
+		&.navi__element--active {
+			.navi__link {
+
+			}
+			&:hover {
+
+			}
+		}
+		&:hover {
+			.navi__link {
+
+			}
+		}
+	}
+	& &__link {
+		display: block;
+		font-family: FiraSans;
+		color: $navi_link_color;
+		text-decoration: none;
+		padding: 20px 25px 20px 0;
+		font-size: 16px;
+		line-height: 22px;
+		@include transition(300ms);
+	}
+}

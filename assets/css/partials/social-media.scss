@@ -1,0 +1,14 @@
+.social-media {
+	margin: 0;
+	padding: 0;
+	& &__element {
+		display: inline-block;
+	}
+	& &__link {
+		display: block;
+		color: $social_media_link_content;
+		padding: 19px 0 17px 25px;
+		font-size: 25px;
+		line-height: 25px;
+	}
+}
